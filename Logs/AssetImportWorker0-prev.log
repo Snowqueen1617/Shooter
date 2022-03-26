@@ -1,0 +1,891 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16227 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GPE340/Shooter/Shooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62444
+Successfully changed project path to: D:/GPE340/Shooter/Shooter
+D:/GPE340/Shooter/Shooter
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GPE340/Shooter/Shooter/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001787 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (426ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 2.707300 ms (FindLiveObjects: 0.135200 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.458700 ms  DeleteObjects: 0.066000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Female_Wench_01.prefab
+  artifactKey: Guid(5587957d61c949542b2e52dcca8a3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Female_Wench_01.prefab using Guid(5587957d61c949542b2e52dcca8a3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149e69e2be87d6a2e5e24499455bb1fb') in 0.183621 seconds 
+  Import took 0.186656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Seaman_01.prefab
+  artifactKey: Guid(cd3b4bf6d7e36af41b2bc986a4ab13c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Seaman_01.prefab using Guid(cd3b4bf6d7e36af41b2bc986a4ab13c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fdab35bf4630f19a06044aee69da3f') in 0.026673 seconds 
+  Import took 0.029735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_02.fbx
+  artifactKey: Guid(d08f8d07d429688478a288c3c6a5a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_02.fbx using Guid(d08f8d07d429688478a288c3c6a5a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9114fa334f9bbf535ffb174d4cfc01ae') in 0.037613 seconds 
+  Import took 0.040366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 3.asset
+  artifactKey: Guid(72ce84c28801ecd408f8bc11c5f45838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 3.asset using Guid(72ce84c28801ecd408f8bc11c5f45838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d57eb2cdb915ce6d28390c31f0391') in 0.057577 seconds 
+  Import took 0.060003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_02_Convex.asset
+  artifactKey: Guid(095a5f51ea026f9439e736710ef57082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_02_Convex.asset using Guid(095a5f51ea026f9439e736710ef57082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2f137c299ca2d4156f551dda82ef78') in 0.006281 seconds 
+  Import took 0.009289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_01_Convex.asset
+  artifactKey: Guid(32e72ffeea14406428af52dd9fe2d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_01_Convex.asset using Guid(32e72ffeea14406428af52dd9fe2d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7347300af45b6e55a38ccf32b1abd4fc') in 0.009643 seconds 
+  Import took 0.012994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Front_01.fbx
+  artifactKey: Guid(93beca9b0a370fc42b52de1bf510cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Front_01.fbx using Guid(93beca9b0a370fc42b52de1bf510cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776f9dda5f99d48eda43d86a32e4fbe6') in 0.017108 seconds 
+  Import took 0.019781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/PolygonPirates/Models/Characters.fbx
+  artifactKey: Guid(409520c9226982345a49c9803624f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/Characters.fbx using Guid(409520c9226982345a49c9803624f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f277b9593fdc8b6257684edf04174998') in 0.279899 seconds 
+  Import took 0.283654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_05_Convex.asset
+  artifactKey: Guid(5a338528cf5b08d4598f35872e29074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_05_Convex.asset using Guid(5a338528cf5b08d4598f35872e29074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409e176e847a51703aa30ad2701b0fbe') in 0.006641 seconds 
+  Import took 0.009518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_02.fbx
+  artifactKey: Guid(be799bbbed62fa544b1b7bb42812a065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_02.fbx using Guid(be799bbbed62fa544b1b7bb42812a065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66288e52685eb2df7c3b051c5623003') in 0.013928 seconds 
+  Import took 0.016173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 1.asset
+  artifactKey: Guid(627522f5e6aa91846a65499ae2c63c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 1.asset using Guid(627522f5e6aa91846a65499ae2c63c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e365dde0fd7a50c0a564d38b699314e') in 0.030249 seconds 
+  Import took 0.032473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Tower_01.fbx
+  artifactKey: Guid(ce7a5f9b25cfda94b820638fc3a63746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Tower_01.fbx using Guid(ce7a5f9b25cfda94b820638fc3a63746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb40e2c752930cd0d1410fe2543cc8f') in 0.017293 seconds 
+  Import took 0.019918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_06.fbx
+  artifactKey: Guid(fcf508237712e024b856ded9647528f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_06.fbx using Guid(fcf508237712e024b856ded9647528f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe02b1f3bf9cbaba0330f57062ebb99') in 0.014927 seconds 
+  Import took 0.018013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Blackbeard_01.prefab
+  artifactKey: Guid(bc4987e2fb189ec4d96488b047577016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Blackbeard_01.prefab using Guid(bc4987e2fb189ec4d96488b047577016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd532e0982722b4b793c95f86eb157b99') in 0.021639 seconds 
+  Import took 0.025906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_03.fbx
+  artifactKey: Guid(fac5494c91d8e254fa888739493f7caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_03.fbx using Guid(fac5494c91d8e254fa888739493f7caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cdc13f8627431347a5a68bcb021093') in 0.024656 seconds 
+  Import took 0.028888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_04.fbx
+  artifactKey: Guid(e178356e61bc86d4aaf6c9dec40ad5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_04.fbx using Guid(e178356e61bc86d4aaf6c9dec40ad5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0feff835632c2d0df0ba8d2f482d4c') in 0.017986 seconds 
+  Import took 0.020894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_VineWall_01_Convex.asset
+  artifactKey: Guid(fdfe86fdb15d38b44a9088ccc0d2c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_VineWall_01_Convex.asset using Guid(fdfe86fdb15d38b44a9088ccc0d2c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f629fcf730c105c44e85f972d9d300') in 0.006536 seconds 
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Shark.prefab
+  artifactKey: Guid(e8d31fb942e91c3478cedbdae2b384a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Shark.prefab using Guid(e8d31fb942e91c3478cedbdae2b384a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b910b7820dac11eba6126e84ff598f8a') in 0.020604 seconds 
+  Import took 0.023171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_First_Mate_01.prefab
+  artifactKey: Guid(a0285b189c83e4240874d46f667867e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_First_Mate_01.prefab using Guid(a0285b189c83e4240874d46f667867e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378c25411ea9ee7679bfc1299cba89c3') in 0.021094 seconds 
+  Import took 0.026655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_04.fbx
+  artifactKey: Guid(a391cdbbbca5a5244b724a6fe19769fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_04.fbx using Guid(a391cdbbbca5a5244b724a6fe19769fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a735460aedf40323b22746c33c8d0f') in 0.015445 seconds 
+  Import took 0.018386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_02_Convex.asset
+  artifactKey: Guid(d1d00378468867b4eacc72a5121de0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_02_Convex.asset using Guid(d1d00378468867b4eacc72a5121de0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9046818d77c2cd2293a9b033baab5252') in 0.010413 seconds 
+  Import took 0.014160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 4.asset
+  artifactKey: Guid(ef629aebeb7451d44884bf351177d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 4.asset using Guid(ef629aebeb7451d44884bf351177d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973a6f7f627ef95ba61ef8e590bb2656') in 0.022956 seconds 
+  Import took 0.026028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_03.prefab
+  artifactKey: Guid(f725d918129d69848a395da5d3d992a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_03.prefab using Guid(f725d918129d69848a395da5d3d992a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0ba5e708d2ff1f6ee02a7cb716bd5d') in 0.021501 seconds 
+  Import took 0.024533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03_Convex.asset
+  artifactKey: Guid(c1e4d9b5d3dc54b49b73863d1e8178e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03_Convex.asset using Guid(c1e4d9b5d3dc54b49b73863d1e8178e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757ef378c854d2cd0894fe1952cc0eca') in 0.011166 seconds 
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_VineWall_01.fbx
+  artifactKey: Guid(f874a2e0ed5ffc1459c09225ce445415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_VineWall_01.fbx using Guid(f874a2e0ed5ffc1459c09225ce445415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e3226cfd567b9275d45c8baaffaf44') in 0.013329 seconds 
+  Import took 0.015984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_02_Convex.asset
+  artifactKey: Guid(d7696406a69b65e4fae2abab274fef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_02_Convex.asset using Guid(d7696406a69b65e4fae2abab274fef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1709dba6e257ea58e93a0c1b00e0f22') in 0.006941 seconds 
+  Import took 0.009729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_02.fbx
+  artifactKey: Guid(cfad6683b2b57fb4194bba82548dcb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_02.fbx using Guid(cfad6683b2b57fb4194bba82548dcb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba51155b9f3cff375d7cb3faf10d705') in 0.015679 seconds 
+  Import took 0.018068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007485 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_English_Govenor_01.prefab
+  artifactKey: Guid(21a82b88f4e365a4cb4277cd43b7fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_English_Govenor_01.prefab using Guid(21a82b88f4e365a4cb4277cd43b7fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48941f87f05ac84e5a36a0644cd7b7b9') in 0.027818 seconds 
+  Import took 0.031374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_02_Convex.asset
+  artifactKey: Guid(3569c5ecb10618f488a80204dba89397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_02_Convex.asset using Guid(3569c5ecb10618f488a80204dba89397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5704967cb2e4a421c2c2439ad5274c61') in 0.011802 seconds 
+  Import took 0.015610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex.asset
+  artifactKey: Guid(565d018d79931ae439f32813d575e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex.asset using Guid(565d018d79931ae439f32813d575e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b129ea609b18578b001f856720c6a27') in 0.006676 seconds 
+  Import took 0.009173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_02_Convex.asset
+  artifactKey: Guid(1909b0000610b1d4db01fd54e245f2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_02_Convex.asset using Guid(1909b0000610b1d4db01fd54e245f2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c03e1622c392bf4cc73840d75c74fd') in 0.008318 seconds 
+  Import took 0.010967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_04.fbx
+  artifactKey: Guid(204577c1e3e854b4b9835a5387b3afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_04.fbx using Guid(204577c1e3e854b4b9835a5387b3afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc68d502056a4f5d110e0fdd02b159df') in 0.020329 seconds 
+  Import took 0.022887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Captain_01.prefab
+  artifactKey: Guid(1cc323c6fbf66b44b87cf8f0d2378b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Captain_01.prefab using Guid(1cc323c6fbf66b44b87cf8f0d2378b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f85abaeea4e1d084378cce5f852c204') in 0.022605 seconds 
+  Import took 0.027410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_03_Convex.asset
+  artifactKey: Guid(d9f5fecf44676d14aa2042941e8808ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_03_Convex.asset using Guid(d9f5fecf44676d14aa2042941e8808ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd6a8dee7d079edede755a55edb86ef') in 0.008092 seconds 
+  Import took 0.010955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01.fbx
+  artifactKey: Guid(50da94c4783485a4b9e3b04b6e44e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01.fbx using Guid(50da94c4783485a4b9e3b04b6e44e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7d9882a3ba0a4113511407b4908775') in 0.018704 seconds 
+  Import took 0.021888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_Square_01_Convex.asset
+  artifactKey: Guid(49ecec502858e5e4ea16fb88b2d778ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_Square_01_Convex.asset using Guid(49ecec502858e5e4ea16fb88b2d778ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5053d0bea2e908a1d7950f40346e4e0e') in 0.008076 seconds 
+  Import took 0.010954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/PolygonPirates/Models/Fish.fbx
+  artifactKey: Guid(0dae9a74e54f9304fbc832e355b23fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/Fish.fbx using Guid(0dae9a74e54f9304fbc832e355b23fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d647f96ecbdd108a0dfeafe6d81807') in 0.027096 seconds 
+  Import took 0.030159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_03_Convex.asset
+  artifactKey: Guid(a2c1e8c69fc284c42b797d402323804d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_03_Convex.asset using Guid(a2c1e8c69fc284c42b797d402323804d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e2431fc5acf8aadd2e2ef8d243e5f5') in 0.007967 seconds 
+  Import took 0.010538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_06_Convex.asset
+  artifactKey: Guid(663761ae1c88feb4493234cd3ed63c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_06_Convex.asset using Guid(663761ae1c88feb4493234cd3ed63c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf536cd51b62e551146621d6d9f7fb5') in 0.008706 seconds 
+  Import took 0.011356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Deckhand_01.prefab
+  artifactKey: Guid(298b6af3224b899419309b7d9e05ace7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Deckhand_01.prefab using Guid(298b6af3224b899419309b7d9e05ace7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd747385ad3626225daa02580875304') in 0.022358 seconds 
+  Import took 0.027400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_03_Convex.asset
+  artifactKey: Guid(e72fd9843d92e3a438a7d7da3cf40ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_03_Convex.asset using Guid(e72fd9843d92e3a438a7d7da3cf40ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9cc0425a2365539528af6fbfdd75cb') in 0.007892 seconds 
+  Import took 0.010475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Short_01.fbx
+  artifactKey: Guid(0a69eac314c1a3e4881de17daea7e2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Short_01.fbx using Guid(0a69eac314c1a3e4881de17daea7e2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df5e337716d1c96e7530fb83b8b112') in 0.015034 seconds 
+  Import took 0.018329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Governors_Daughter_01.prefab
+  artifactKey: Guid(3af687dc0b15ced4a97dc9a6687c8af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Governors_Daughter_01.prefab using Guid(3af687dc0b15ced4a97dc9a6687c8af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a3da5ac84bdb3ba6be1be057eef836') in 0.021151 seconds 
+  Import took 0.026972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_01_Convex.asset
+  artifactKey: Guid(7948cf3d1e2dca74b84452577978fc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_01_Convex.asset using Guid(7948cf3d1e2dca74b84452577978fc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5a35983eab4c19b4051c59a538194e') in 0.011349 seconds 
+  Import took 0.015398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Gentleman_01.prefab
+  artifactKey: Guid(81a28c375b28168439a9968612b54c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Gentleman_01.prefab using Guid(81a28c375b28168439a9968612b54c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca41f57e7376666f1fd783a1d9cb58') in 0.023815 seconds 
+  Import took 0.030845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001557 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_07_Convex.asset
+  artifactKey: Guid(305d3cbbe01beaf4184b5dd0759dce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_07_Convex.asset using Guid(305d3cbbe01beaf4184b5dd0759dce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa82e264f58d9886f1ed6eaa6b515aaf') in 0.008563 seconds 
+  Import took 0.011627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 5.asset
+  artifactKey: Guid(7df0aacb4b860074e84aa450d83fdfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 5.asset using Guid(7df0aacb4b860074e84aa450d83fdfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b268cca1a5a2eea0b489470ea0f98f2') in 0.029673 seconds 
+  Import took 0.032432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_01_Convex.asset
+  artifactKey: Guid(5a88b67ddf301534f81b30c62a35653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_01_Convex.asset using Guid(5a88b67ddf301534f81b30c62a35653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a028c757466fc5a7bdc5d457805f2e3') in 0.009871 seconds 
+  Import took 0.012719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_04_Convex.asset
+  artifactKey: Guid(89d6c91fabc33524a9c3f99673c8410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_04_Convex.asset using Guid(89d6c91fabc33524a9c3f99673c8410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea5a641e011d1bff59704b252f0aa18') in 0.008093 seconds 
+  Import took 0.012799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_Corner_01.fbx
+  artifactKey: Guid(898d7e65cf0317245bf40d5218799cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_Corner_01.fbx using Guid(898d7e65cf0317245bf40d5218799cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f75acc4fd549182f10e87ba5a8b84e') in 0.011593 seconds 
+  Import took 0.014465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Front_01_Convex.asset
+  artifactKey: Guid(cda007f40966f1e478921d0c26410a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Front_01_Convex.asset using Guid(cda007f40966f1e478921d0c26410a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce04e62f44448ade7994a24793bb46e') in 0.009319 seconds 
+  Import took 0.013317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_05.fbx
+  artifactKey: Guid(0f0ea9de7b0bd3c4e881ab380e27ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_05.fbx using Guid(0f0ea9de7b0bd3c4e881ab380e27ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808ac0942fa4d824628c9869fbc4b268') in 0.015038 seconds 
+  Import took 0.017967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 2.asset
+  artifactKey: Guid(c6b234d8ecd2b584d8dcb795e2bb9371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 2.asset using Guid(c6b234d8ecd2b584d8dcb795e2bb9371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82deb7c083c0ae31770235b2d3c00bee') in 0.032753 seconds 
+  Import took 0.038005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_01_Convex.asset
+  artifactKey: Guid(d5c7577c67801e147a789b67e262f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_01_Convex.asset using Guid(d5c7577c67801e147a789b67e262f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60b532e3c7d461a5fd3aed50cc23291') in 0.008557 seconds 
+  Import took 0.011787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03.fbx
+  artifactKey: Guid(9b50f4188ca0d8b44b0adf5a014d9600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03.fbx using Guid(9b50f4188ca0d8b44b0adf5a014d9600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696f49cb2b0c039ca91be1a849622f31') in 0.012010 seconds 
+  Import took 0.014523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_04_Convex.asset
+  artifactKey: Guid(ab4374c3cc8f7494796deb75492fb78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_04_Convex.asset using Guid(ab4374c3cc8f7494796deb75492fb78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99798eeb5f33e785dc183a6827dffd48') in 0.011936 seconds 
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_01.fbx
+  artifactKey: Guid(14f8e704236ebb547a187b5bec27b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_01.fbx using Guid(14f8e704236ebb547a187b5bec27b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c47a6dc2e6106de8cdbe6c8c27c7b57') in 0.013986 seconds 
+  Import took 0.016669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_Corner_01_Convex.asset
+  artifactKey: Guid(ef71734b8ccc47b4a84966703514bbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_Corner_01_Convex.asset using Guid(ef71734b8ccc47b4a84966703514bbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e859561b35ca90bc48ee349206f5811a') in 0.009705 seconds 
+  Import took 0.012257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_01.fbx
+  artifactKey: Guid(be6ae2b1d64eebc47ab9e0e8877c3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_01.fbx using Guid(be6ae2b1d64eebc47ab9e0e8877c3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3b79273206479685ca6a93d0af09c8') in 0.015272 seconds 
+  Import took 0.018699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_01.prefab
+  artifactKey: Guid(fe1cffe6ed7a7ff4798b18c00b0358e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_01.prefab using Guid(fe1cffe6ed7a7ff4798b18c00b0358e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5731a6431873ceb6346d3432ea290997') in 0.023860 seconds 
+  Import took 0.027488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_01_Convex.asset
+  artifactKey: Guid(fc95fa7f0799d4144839d5c43a7e37af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_01_Convex.asset using Guid(fc95fa7f0799d4144839d5c43a7e37af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec453921624ebe7b76d2d143ab4d3f') in 0.008003 seconds 
+  Import took 0.012458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02.fbx
+  artifactKey: Guid(214dcddeeef467640b326677f73924ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02.fbx using Guid(214dcddeeef467640b326677f73924ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07246b50e57d4f354ea2027f4535fff') in 0.015609 seconds 
+  Import took 0.018923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_04_Convex.asset
+  artifactKey: Guid(1298eeaf6fd5b66408cc74617557c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_04_Convex.asset using Guid(1298eeaf6fd5b66408cc74617557c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b495f1f3626cf4e47642805ef52983') in 0.006600 seconds 
+  Import took 0.009770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/PolygonPirates/Models/SkyDome.fbx
+  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebb71333f5e684469ffcd7c1fdf449c') in 0.045669 seconds 
+  Import took 0.049217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_01.fbx
+  artifactKey: Guid(69a9cf64fc126ef4eb41524cd2212e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_01.fbx using Guid(69a9cf64fc126ef4eb41524cd2212e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03d5ec07da20f52ba73e6eba931dc1') in 0.013520 seconds 
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_07.fbx
+  artifactKey: Guid(d092fa87a240dee4f87191185e02e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_07.fbx using Guid(d092fa87a240dee4f87191185e02e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cceac0108e9a40480ec536d5e94eff') in 0.016484 seconds 
+  Import took 0.020545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_03.fbx
+  artifactKey: Guid(2ea88a668ca71024f81e8f421d68eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_03.fbx using Guid(2ea88a668ca71024f81e8f421d68eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9201e0c514c82b2690da6673187aef79') in 0.016135 seconds 
+  Import took 0.020761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_04_Convex.asset
+  artifactKey: Guid(1a0e1b1f7fca2e648964e7327cc8cdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_04_Convex.asset using Guid(1a0e1b1f7fca2e648964e7327cc8cdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a59e00757b16ac7b95a2a2e9b60c212') in 0.009523 seconds 
+  Import took 0.012833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Female_Pirate_01.prefab
+  artifactKey: Guid(9f907d6996365d14f98f919ae28e1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Female_Pirate_01.prefab using Guid(9f907d6996365d14f98f919ae28e1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9245b0f1f11389380968e8a66cd5174a') in 0.022480 seconds 
+  Import took 0.025730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_01.fbx
+  artifactKey: Guid(64d9efd13a5fd0747ac901750cd03397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_01.fbx using Guid(64d9efd13a5fd0747ac901750cd03397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5296553311060068c433e6d6baa9063e') in 0.012294 seconds 
+  Import took 0.015458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02_Convex.asset
+  artifactKey: Guid(7e4cec334581a6f489fafc612f1e564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02_Convex.asset using Guid(7e4cec334581a6f489fafc612f1e564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf500b397d034d9071b06ec110d7004') in 0.008306 seconds 
+  Import took 0.012853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_02.fbx
+  artifactKey: Guid(d0df7c6f997f2c44c8471d313145b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_02.fbx using Guid(d0df7c6f997f2c44c8471d313145b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599fc86154f217ace52add34f66b5dbd') in 0.013598 seconds 
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_02.prefab
+  artifactKey: Guid(27953ea55848f7a48897c38360d8b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_02.prefab using Guid(27953ea55848f7a48897c38360d8b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c52d05401fc29f04422cb00b8c6328') in 0.023437 seconds 
+  Import took 0.026895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_02.fbx
+  artifactKey: Guid(6c1c210683e90a84590d202eb90786e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_02.fbx using Guid(6c1c210683e90a84590d202eb90786e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5119382bdfc69b9974c4d9b0775fea6f') in 0.015530 seconds 
+  Import took 0.018598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_01.fbx
+  artifactKey: Guid(425cf0d25629c1c499a595c8d12571d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_01.fbx using Guid(425cf0d25629c1c499a595c8d12571d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b2e58c4989c8076e15020937083935') in 0.014966 seconds 
+  Import took 0.019265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_01_Convex.asset
+  artifactKey: Guid(10f33e468897cc24b98a3c7d32d31902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_01_Convex.asset using Guid(10f33e468897cc24b98a3c7d32d31902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960baff74eebd22555dc667e4feb055') in 0.008649 seconds 
+  Import took 0.011623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_02_Convex 1.asset
+  artifactKey: Guid(0294669e1c5fcab40811c43d1ad67b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_02_Convex 1.asset using Guid(0294669e1c5fcab40811c43d1ad67b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b299588c14fa1b83c82c6e238446b7c') in 0.028915 seconds 
+  Import took 0.033275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_02.fbx
+  artifactKey: Guid(5b2c7d30960f23648a98ac8d89637b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_02.fbx using Guid(5b2c7d30960f23648a98ac8d89637b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa8c39852640f61dd6cc687aebd905a') in 0.014055 seconds 
+  Import took 0.018083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_Square_01.fbx
+  artifactKey: Guid(4f2cab329344cd34b9fca929e1ab9962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_Square_01.fbx using Guid(4f2cab329344cd34b9fca929e1ab9962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b281b1fe4a06b91e4b3e10ab86bfc1') in 0.016518 seconds 
+  Import took 0.020382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_01.fbx
+  artifactKey: Guid(fa556cf57022ac3489a507da9d8738ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Balcony_01.fbx using Guid(fa556cf57022ac3489a507da9d8738ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7170419291a6caf2c4a1464ed50ca901') in 0.012580 seconds 
+  Import took 0.015504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_04.fbx
+  artifactKey: Guid(33713272f2c78c04b8d53eda6ed270c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_04.fbx using Guid(33713272f2c78c04b8d53eda6ed270c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addeafab70ab95b698c1c66fe6394f00') in 0.016418 seconds 
+  Import took 0.019503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_03_Convex.asset
+  artifactKey: Guid(39c70d3a23ef5764c8ff8e84c6f42c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_03_Convex.asset using Guid(39c70d3a23ef5764c8ff8e84c6f42c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c198cf3fd6ef0f185eb85b80a0dbf2c3') in 0.006535 seconds 
+  Import took 0.009690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_05.fbx
+  artifactKey: Guid(c4ab0868c64addf41be41162d082de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_05.fbx using Guid(c4ab0868c64addf41be41162d082de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b922a4ba476b351415cfe24d5d2dd870') in 0.019962 seconds 
+  Import took 0.022568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_English_Captain_01.prefab
+  artifactKey: Guid(35dd43ae5c2e10a4abb1ec8f5ecb5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_English_Captain_01.prefab using Guid(35dd43ae5c2e10a4abb1ec8f5ecb5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfbe3248acef146572c526648322cdb') in 0.022489 seconds 
+  Import took 0.028648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_03.fbx
+  artifactKey: Guid(57baa8ccfc235614e86400f458b24799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_03.fbx using Guid(57baa8ccfc235614e86400f458b24799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbf01cf420de7d81938f4925c4866af') in 0.015639 seconds 
+  Import took 0.018204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Tower_01_Convex.asset
+  artifactKey: Guid(55cb1e954db99734b91edaf5982fe8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Hall_Tower_01_Convex.asset using Guid(55cb1e954db99734b91edaf5982fe8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb3197b8630f1d5ae08814d4c67ba0b') in 0.010305 seconds 
+  Import took 0.014912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Short_01_Convex.asset
+  artifactKey: Guid(b8cf7660e6d02fa4e935218bd3354f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Short_01_Convex.asset using Guid(b8cf7660e6d02fa4e935218bd3354f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d057f9b791b62f53b2da808a83f271') in 0.006732 seconds 
+  Import took 0.009251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonPirates/Models/Shark.fbx
+  artifactKey: Guid(be364b4ac1703e944aa52277826d8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/Shark.fbx using Guid(be364b4ac1703e944aa52277826d8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b558c82700069ff398a6d05c83f0ccfc') in 0.024032 seconds 
+  Import took 0.026628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02_Convex 1.asset
+  artifactKey: Guid(c29e545eb0e1f2643a1609e9019056d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02_Convex 1.asset using Guid(c29e545eb0e1f2643a1609e9019056d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae49b7ef31ccad6748ae68683e14eb14') in 0.017377 seconds 
+  Import took 0.020115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_03.fbx
+  artifactKey: Guid(b939e3bed7c067f4fa34e432958b017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Roof_03.fbx using Guid(b939e3bed7c067f4fa34e432958b017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7086dc1ef97e999d93caefee123bcfbf') in 0.016544 seconds 
+  Import took 0.020902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_English_Soldier_01.prefab
+  artifactKey: Guid(d24bb65e9cbd4f34d8d7c86cdec254e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_English_Soldier_01.prefab using Guid(d24bb65e9cbd4f34d8d7c86cdec254e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e9b5c0c5c0d6904633f40645145de') in 0.023397 seconds 
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_05_Convex.asset
+  artifactKey: Guid(719d542c28bc7d4418f9864c07bfc1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_05_Convex.asset using Guid(719d542c28bc7d4418f9864c07bfc1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cb38b2b7a2a66c719694f5198477dd') in 0.007756 seconds 
+  Import took 0.010711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_02_Convex.asset
+  artifactKey: Guid(50e07b663006d644d92fbfdd7ee79738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_02_Convex.asset using Guid(50e07b663006d644d92fbfdd7ee79738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d51dbe14d397dce6161a568fb6dc41') in 0.009073 seconds 
+  Import took 0.012961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Fish.prefab
+  artifactKey: Guid(24a3398e60ffa3a46afcb1d10229a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Fish.prefab using Guid(24a3398e60ffa3a46afcb1d10229a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9093bb0235b64e405ec17c0207e2a0a5') in 0.010560 seconds 
+  Import took 0.014995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_01_Convex 1.asset
+  artifactKey: Guid(3789d2d79be0f3a4398c8ef7e5113844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Models/SM_Bld_Cuba_Arch_01_Convex 1.asset using Guid(3789d2d79be0f3a4398c8ef7e5113844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f56008f9b5f9e2be379df51baf1ecc7') in 0.030307 seconds 
+  Import took 0.033429 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
