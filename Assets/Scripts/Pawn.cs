@@ -5,7 +5,8 @@ using UnityEngine;
 public class Pawn : MonoBehaviour
 {
     private Animator anim;
-    public float moveSpeed; //Meters per second
+    public float moveSpeed = 1; //Meters per second
+    public float rotateSpeed = 1; //Degrees per second
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,19 @@ public class Pawn : MonoBehaviour
         //Send parameters in to animator
         anim.SetFloat("Right", moveVector.x);
         anim.SetFloat("Forward", moveVector.z);
+    }
 
+    public void RotateTowards ( Vector3 targetPoint)
+    {
+        // Find the rotation that would be looking at that target point
+        //Find the Vector to the point (end - start point)
+        Vector3 targetVector = targetPoint - transform.position;
+
+        // Find rotation down that vector
+        Quaternion targetRotation = Quaternion.LookRotation(targetVector, Vector3.up);
+
+        // change my rotation (slowly) towards that targeted rotation
+        transform.rotation = Quaternion.RotateTowards( transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
     }
 
 }
