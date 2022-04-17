@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pawn : MonoBehaviour
 {
     private Animator anim;
+    public Weapon weapon;
     public float moveSpeed = 1; //Meters per second
     public float rotateSpeed = 1; //Degrees per second
 
@@ -18,6 +19,14 @@ public class Pawn : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void EquipWeapon( GameObject weaponPrefabToEquip)
+    {
+        // TODO: Instantiate the weapon to equip
+        //TODO: Move it to the correct mounting point on the player
+        //ToDO: Make it so the weapon's parent (transform.parent) is the correct part of the player
+        // TODO: Set this pawn, so the new weapon is the wepaon used by code
     }
 
     public void Move ( Vector3 moveVector)
