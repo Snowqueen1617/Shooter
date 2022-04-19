@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Rifle : Weapon
 {
+    public Transform firePoint;
+    public GameObject projectilePrefab;
+    public float projectileMoveSpeed;
+    public float projectileLifespan;
+
     // Start is called before the first frame update
     public override void Start()
     {
@@ -20,10 +25,18 @@ public class Rifle : Weapon
 
     public void ShootBullets()
     {
-        // ToDO: Instantiate bullets at the fire location of this rifle -- the sphere will handle the rest
+        // Instantiate bullets at the fire location of this rifle -- the sphere will handle the rest
         Debug.Log("Pew Pew Pew");
+        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation) as GameObject;
+        Projectile projectileScript = projectile.GetComponent<Projectile>();
         //Transfer important information like damage done to the sphere
-
+        if (projectile != null)
+        {
+            projectileScript.damageDone = damageDone;
+            projectileScript.lifespan = projectileLifespan;
+            projectileScript.moveSpeed = projectileMoveSpeed;
+        }
         // -- the sphere will handle the rest
+
     }
 }

@@ -16,7 +16,8 @@ public class Weapon : MonoBehaviour
     public bool isAutoFiring;
     [Header("Data")]
     public float fireDelay; // Seconds between shots
-    private float countDown; 
+    public float countDown; 
+    public float damageDone;
 
     // Start is called before the first frame update
     public virtual void Start()

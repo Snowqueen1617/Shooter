@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Pawn : MonoBehaviour
 {
+    [Header("Components")]
     private Animator anim;
     public Weapon weapon;
+
+    [Header("Data")]
     public float moveSpeed = 1; //Meters per second
-    public float rotateSpeed = 1; //Degrees per second
+    public float rotateSpeed = 180; //Degrees per second
+
+    [Header("Transforms")]
+    public Transform weaponMountPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +27,28 @@ public class Pawn : MonoBehaviour
         
     }
 
+    public void UnequipWeapon()
+    {
+        // Destroy the equipped weapon
+        Destroy(weapon.gameObject);
+
+        //Make sure the weapon variable is set to null
+        weapon = null;
+    }
+
     public void EquipWeapon( GameObject weaponPrefabToEquip)
     {
-        // TODO: Instantiate the weapon to equip
-        //TODO: Move it to the correct mounting point on the player
-        //ToDO: Make it so the weapon's parent (transform.parent) is the correct part of the player
-        // TODO: Set this pawn, so the new weapon is the wepaon used by code
+        //Unequip the old weapon
+        UnequipWeapon();
+
+        // Instantiate the weapon to equip
+        GameObject newWeapon = Instantiate(weaponPrefabToEquip, weaponMountPoint.position, weaponMountPoint.rotation);
+        
+        // Make it so the weapon's parent (transform.parent) is the correct part of the player
+        newWeapon.transform.parent = weaponMountPoint;
+        
+        // Set this pawn, so the new weapon is the wepaon used by code
+        weapon = newWeapon.GetComponent<Weapon>();
     }
 
     public void Move ( Vector3 moveVector)
