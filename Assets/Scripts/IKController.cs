@@ -4,41 +4,68 @@ using UnityEngine;
 
 public class IKController : MonoBehaviour
 {
-    // Where it is going to try to move our hand to
-    public Transform rightHandPoint;
-    public Transform leftHandPoint;
+    public Pawn pawn;
+
     // Weight - How much it blends between going to that point and staying with out current animation
-    public float rightHandWeight;
-    public float leftHandWeight;
+    private float rightHandWeight = 1.0f;
+    private float leftHandWeight = 1.0f;
 
     public Animator anim;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        pawn = GetComponent<Pawn>();
     }
 
     public void OnAnimatorIK(int layerIndex)
     {
-        // TODO: Check that we have a weapon, becaus eif no weapon, no IK
+        // Check that we have a weapon, because if no weapon, no IK
+        if (pawn.weapon == null)
+        {
+            anim.SetIKPositionWeight(AvatarIKGoal.RightHand, 0.0f);
+            anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, 0.0f);
+
+            anim.SetIKRotationWeight(AvatarIKGoal.RightHand, 0.0f);
+            anim.SetIKRotationWeight(AvatarIKGoal.LeftHand, 0.0f);
+
+            // Exit out of the function
+            return;
+        }
 
         // However, if weapon, then use the rightHandPoint and leftHandPoint 
-        //  NOTE: In the game itself, these will come from the weapon. The weapon tells you it's points
+        //      NOTE: In the game itself, these will come from the weapon. The weapon tells you it's points
+        // Get the points from the weapon
+        if (pawn.weapon.RHPoint == null)
+        {
+            anim.SetIKPositionWeight(AvatarIKGoal.RightHand, 0.0f);
+            anim.SetIKRotationWeight(AvatarIKGoal.RightHand, 0.0f);
 
-        // Tell the animator to move the hand to the position and rotation, not telling it how much (weight)
-        anim.SetIKPosition(AvatarIKGoal.RightHand, rightHandPoint.position);
-        anim.SetIKPosition(AvatarIKGoal.LeftHand, leftHandPoint.position);
+        }
+        else
+        {
+            anim.SetIKPosition(AvatarIKGoal.RightHand,pawn.weapon.RHPoint.position);
+            anim.SetIKRotation(AvatarIKGoal.RightHand,pawn.weapon.RHPoint.rotation);
 
-        anim.SetIKRotation(AvatarIKGoal.RightHand, rightHandPoint.rotation);
-        anim.SetIKRotation(AvatarIKGoal.LeftHand, leftHandPoint.rotation);
+            anim.SetIKPositionWeight(AvatarIKGoal.RightHand, 1.0f);
+            anim.SetIKRotationWeight(AvatarIKGoal.RightHand, 1.0f);
 
-        //Tells it how much (weight)
-        anim.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandWeight);
-        anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandWeight);
+        }
 
-        anim.SetIKRotationWeight(AvatarIKGoal.RightHand, rightHandWeight);
-        anim.SetIKRotationWeight(AvatarIKGoal.LeftHand, leftHandWeight);
+        if (pawn.weapon.LHPoint == null)
+        {
+            anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, 0.0f);
+            anim.SetIKRotationWeight(AvatarIKGoal.LeftHand, 0.0f);
 
+        }
+        else
+        {
+            anim.SetIKPosition(AvatarIKGoal.LeftHand,pawn.weapon.LHPoint.position);
+            anim.SetIKRotation(AvatarIKGoal.LeftHand,pawn.weapon.LHPoint.rotation);
 
+            anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1.0f);
+            anim.SetIKRotationWeight(AvatarIKGoal.LeftHand, 1.0f);
+
+        }
     }
 }
