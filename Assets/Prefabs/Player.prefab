@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 2058018420620063742}
   moveSpeed: 4
-  rotateSpeed: 30
+  rotateSpeed: 90
   weaponMountPoint: {fileID: 1840638736}
 --- !u!114 &8982257735330695623
 MonoBehaviour:
@@ -2422,13 +2422,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8982257735271396964}
-  m_LocalRotation: {x: 0.068103015, y: 0.0000000105439675, z: -0.000000043442206, w: 0.99767834}
-  m_LocalPosition: {x: 0, y: 2.1, z: -2.15}
+  m_LocalRotation: {x: 0.5884539, y: 0.000000032040194, z: -0.00000003117417, w: 0.8085308}
+  m_LocalPosition: {x: 0, y: 9.46, z: -1.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8875990875824756529}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 7.81, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 72.095, y: 0, z: 0}
 --- !u!20 &8982257735271396966
 Camera:
   m_ObjectHideFlags: 0

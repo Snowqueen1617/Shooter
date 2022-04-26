@@ -63,8 +63,9 @@
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rifle.cs" />
-    <Compile Include="Assets\Scripts\LameExplosion.cs" />
     <Compile Include="Assets\Scripts\Pickup.cs" />
+    <Compile Include="Assets\Scripts\LameExplosion.cs" />
+    <Compile Include="Assets\Scripts\WeaponPickup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonNature\Shaders\SyntyStudios_LOD.shader" />
