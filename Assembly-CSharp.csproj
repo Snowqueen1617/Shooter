@@ -59,13 +59,15 @@
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\TestScript.cs" />
     <Compile Include="Assets\Scripts\Pawn.cs" />
+    <Compile Include="Assets\Scripts\WeaponPickup.cs" />
     <Compile Include="Assets\Scripts\WorthPoint.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rifle.cs" />
     <Compile Include="Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Scripts\LameExplosion.cs" />
-    <Compile Include="Assets\Scripts\WeaponPickup.cs" />
+    <Compile Include="Assets\Scripts\GenericSpawner.cs" />
+    <Compile Include="Assets\Scripts\RaycastRifle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonNature\Shaders\SyntyStudios_LOD.shader" />
