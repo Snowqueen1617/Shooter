@@ -31531,8 +31531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478418cf313dae74aa45ab4f375153ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
   targetTransform: {fileID: 1990260508}
+  pawn: {fileID: 763365723}
+  timeBetweenNavigationCkecks: 0.5
 --- !u!195 &763365719
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -31547,7 +31548,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 2
+  m_StoppingDistance: 5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -31569,6 +31570,22 @@ CapsuleCollider:
   m_Height: 2.8173351
   m_Direction: 1
   m_Center: {x: 0, y: 0.40866756, z: 0}
+--- !u!114 &763365723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763365717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb021895878cbc84492003c4319f4f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 0}
+  moveSpeed: 4
+  rotateSpeed: 180
+  weaponMountPoint: {fileID: 0}
 --- !u!1001 &764630141
 PrefabInstance:
   m_ObjectHideFlags: 0
