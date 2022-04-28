@@ -7,8 +7,8 @@ public class IKController : MonoBehaviour
     public Pawn pawn;
 
     // Weight - How much it blends between going to that point and staying with out current animation
-    private float rightHandWeight = 1.0f;
-    private float leftHandWeight = 1.0f;
+    //private float rightHandWeight = 1.0f;
+    //private float leftHandWeight = 1.0f;
 
     public Animator anim;
 
