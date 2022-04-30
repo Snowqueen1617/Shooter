@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Pawn.cs" />
     <Compile Include="Assets\Scripts\WeaponPickup.cs" />
     <Compile Include="Assets\Scripts\WorthPoint.cs" />
+    <Compile Include="Assets\Scripts\AIMinion.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rifle.cs" />
@@ -71,7 +72,8 @@
     <Compile Include="Assets\Scripts\LameExplosion.cs" />
     <Compile Include="Assets\Scripts\AgentTest.cs" />
     <Compile Include="Assets\Scripts\AIController.cs" />
-    <Compile Include="Assets\Scripts\AIMinion.cs" />
+    <Compile Include="Assets\Scripts\SpawnPoint.cs" />
+    <Compile Include="Assets\Scripts\RogdollController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonNature\Shaders\SyntyStudios_LOD.shader" />
