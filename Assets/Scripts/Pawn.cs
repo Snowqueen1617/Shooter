@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pawn : MonoBehaviour
 {
     [Header("Components")]
-    private Animator anim;
+    [HideInInspector] public Animator anim;
     public Weapon weapon;
 
     [Header("Data")]
@@ -46,9 +46,13 @@ public class Pawn : MonoBehaviour
         
         // Make it so the weapon's parent (transform.parent) is the correct part of the player
         newWeapon.transform.parent = weaponMountPoint;
+
+        // Set weapon to same layer sa pawn
+        newWeapon.layer = gameObject.layer;
         
         // Set this pawn, so the new weapon is the wepaon used by code
         weapon = newWeapon.GetComponent<Weapon>();
+
     }
 
     public void Move ( Vector3 moveVector)

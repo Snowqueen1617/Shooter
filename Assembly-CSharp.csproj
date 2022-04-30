@@ -70,6 +70,8 @@
     <Compile Include="Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Scripts\LameExplosion.cs" />
     <Compile Include="Assets\Scripts\AgentTest.cs" />
+    <Compile Include="Assets\Scripts\AIController.cs" />
+    <Compile Include="Assets\Scripts\AIMinion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonNature\Shaders\SyntyStudios_LOD.shader" />

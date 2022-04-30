@@ -32,6 +32,9 @@ public class Rifle : Weapon
         //Transfer important information like damage done to the sphere
         if (projectile != null)
         {
+            // The projectile (bullet) layer is the same as the pawn layer
+            projectile.layer = gameObject.layer;
+
             projectileScript.damageDone = damageDone;
             projectileScript.lifespan = projectileLifespan;
             projectileScript.moveSpeed = projectileMoveSpeed;
