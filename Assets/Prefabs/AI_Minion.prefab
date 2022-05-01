@@ -2435,6 +2435,8 @@ GameObject:
   - component: {fileID: 6727314554547313878}
   - component: {fileID: 9056665066415268484}
   - component: {fileID: 5366621143283876495}
+  - component: {fileID: 1765729863}
+  - component: {fileID: 298348476716190035}
   m_Layer: 7
   m_Name: AI_Minion
   m_TagString: Untagged
@@ -2615,6 +2617,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pawn: {fileID: 6727314554547313878}
   anim: {fileID: 0}
+--- !u!114 &1765729863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6727314554566301007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0f04b597f4175458183dd4188c90d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRagdoll: 0
+--- !u!54 &298348476716190035
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6727314554566301007}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6727314554566303423
 GameObject:
   m_ObjectHideFlags: 0

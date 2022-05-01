@@ -35689,7 +35689,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8982257735330695643, guid: aef8c13c91f4ecb47b866c96d1ce34c4, type: 3}
   m_PrefabInstance: {fileID: 1848092376}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906114266}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb021895878cbc84492003c4319f4f65, type: 3}
@@ -37171,23 +37171,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 471088, guid: c8e0036d1bcbc5f47b80672ab3051ad0, type: 3}
   m_PrefabInstance: {fileID: 905752607}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &906114266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8099171975887637899, guid: aef8c13c91f4ecb47b866c96d1ce34c4, type: 3}
-  m_PrefabInstance: {fileID: 1848092376}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &906114267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906114266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf0f04b597f4175458183dd4188c90d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &907248554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70264,18 +70247,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6727314554566301007, guid: 5ec3b585c4d725644889a906f59c9bf9, type: 3}
   m_PrefabInstance: {fileID: 1765729861}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1765729863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765729862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf0f04b597f4175458183dd4188c90d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1765988263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85521,8 +85492,8 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8103784784311590172, guid: 001031b4e043fe340bd5a2c94225f362, type: 3}
-      propertyPath: objectToSpawn
+    - target: {fileID: 1246137010, guid: 001031b4e043fe340bd5a2c94225f362, type: 3}
+      propertyPath: objectsToSpawn.Array.data[0].objectToSpawn
       value: 
       objectReference: {fileID: 1765729862}
     - target: {fileID: 8103784784311590173, guid: 001031b4e043fe340bd5a2c94225f362, type: 3}
