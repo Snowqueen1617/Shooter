@@ -43,9 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2bc42864403e3a43b67ac5c76924fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fropType: 1
   objectsToSpawn:
   - objectToSpawn: {fileID: 2180670925336643762, guid: 5bb4ebced5fc2134aafe1eb29a841da1, type: 3}
-    weight: 5
+    weight: 7
   - objectToSpawn: {fileID: 7258061578541295208, guid: 7e3fa004abbedbc49889d97a0e722156, type: 3}
     weight: 5
   - objectToSpawn: {fileID: 7258061578541295208, guid: 7e3fa004abbedbc49889d97a0e722156, type: 3}

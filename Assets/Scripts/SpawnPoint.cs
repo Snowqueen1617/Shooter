@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
+    public enum dropTypes { Random, Weighted, PercentWeighted };
+    public dropTypes fropType;
     public RandomWeightedObject[] objectsToSpawn;
     public float timeBetweenSpawns;
     private float countDown;

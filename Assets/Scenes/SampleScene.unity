@@ -85437,7 +85437,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7807769587403148000, guid: 35822d14a09fa754cb59e98b4dda8a54, type: 3}
       propertyPath: m_Name
-      value: Spawner
+      value: ItemSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 7807769587403148002, guid: 35822d14a09fa754cb59e98b4dda8a54, type: 3}
       propertyPath: m_RootOrder
