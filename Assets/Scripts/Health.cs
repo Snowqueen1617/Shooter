@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
     //Event Systems can be used on EVERYTHING
+
+    public Text text;
 
     [Header("Values")]
     public float maxHealth;
@@ -31,13 +34,13 @@ public class Health : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(1);
         }
-    }
+    }*/
 
     public void Heal( float amountToHeal)
     {
@@ -54,7 +57,7 @@ public class Health : MonoBehaviour
 
         // Subtract Health
         currentHealth -= amountOfDamage;
-
+    
         // If our health <= 0, we die
         if ( currentHealth <= 0)
         {
@@ -65,6 +68,12 @@ public class Health : MonoBehaviour
         {
             // Don't go over max health
             currentHealth = Mathf.Min(currentHealth, maxHealth);
+            //HealthDisplay(currentHealth);
         }
     }
+
+    /*public void HealthDisplay( float currentHealth)
+    {
+        text.text = "Health " + currentHealth.ToString() + ".";
+    }*/
 }

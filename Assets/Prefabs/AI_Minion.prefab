@@ -2592,14 +2592,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56dcbcd62d0d24d4ea825394bdc6f336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  text: {fileID: 0}
+  maxHealth: 10
   currentHealth: 0
   OnTakeDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9056665066415268484}
+        m_TargetAssemblyTypeName: Health, Assembly-CSharp
+        m_MethodName: TakeDamage
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnDie:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1765729863}
+        m_TargetAssemblyTypeName: RogdollController, Assembly-CSharp
+        m_MethodName: ToggleRagdoll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnHeal:
     m_PersistentCalls:
       m_Calls: []
@@ -7084,26 +7109,6 @@ PrefabInstance:
     - target: {fileID: 2180670925336643762, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}
       propertyPath: m_Name
       value: RiflePickedUp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2180670925336643762, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2389150103360262649, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
-    - target: {fileID: 2389150103360262649, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2972538488611030814, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8971404296841602600, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17601a9cf9d720c4bb3be2988d0d68f1, type: 3}

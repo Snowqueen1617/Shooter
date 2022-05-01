@@ -159,8 +159,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   isAutoFiring: 0
-  fireDelay: 0.1
-  countDown: 0
+  fireDelay: 0.5
+  countDown: 2
   damageDone: 10
   RHPoint: {fileID: 2216390588677558361}
   LHPoint: {fileID: 4833023141365892407}

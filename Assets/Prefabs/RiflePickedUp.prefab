@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5356891704127377158}
   - component: {fileID: 7975002058445305148}
   - component: {fileID: 1106075984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RiflePickedUp
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
@@ -157,15 +157,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   isAutoFiring: 0
-  fireDelay: 0.1
-  countDown: 0
+  fireDelay: 0.5
+  countDown: 2
   damageDone: 10
   RHPoint: {fileID: 2216390588677558361}
   LHPoint: {fileID: 4833023141365892407}
   firePoint: {fileID: 7580660859458204364}
   projectilePrefab: {fileID: 256291800220261578, guid: b1d9837d1b98aa240b66ce0554ac4e3d, type: 3}
   projectileMoveSpeed: 40
-  projectileLifespan: 1
+  projectileLifespan: 2
 --- !u!65 &7975002058445305148
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -200,10 +200,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2216390588677558361}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RHpoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7580660859458204364}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4833023141365892407}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LHpoint
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
